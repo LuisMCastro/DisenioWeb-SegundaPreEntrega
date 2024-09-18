@@ -6,8 +6,7 @@
 
 /* HEADER */
 header {
-    background-color: rgb(221, 145, 57);
-    box-sizing: border-box;
+    background-color: rgb(241, 161, 70);
     height: 80px;
     position: sticky;
     top: 0%;
@@ -40,7 +39,7 @@ nav ul li a {
     font-size: large;
 }
 
-/* MAIN */
+/* MAIN INDEX */
 
 main {
 
@@ -49,35 +48,31 @@ main {
     height: 100vh;
 }
 
-section {
+main section {
     padding: 40px;
 }
 
-section div button {
-    margin: 20px;
-    height: 25px;
-}
-
-.titulo-seccion {
+main section .titulo-seccion {
     color: bisque;
     margin: 30px;
     text-align: center;
 
 }
 
-.botones {
-    background-color: cadetblue;
-    display: grid;
-    grid-template-columns:1, 1fr;
-    grid-template-rows:repeat(2, 1fr);
-    gap: 1rem;
-}
-
-.boton1{
+main section .botones div{
     display: flex;
+    justify-content: center;
     gap: 1rem;
 }
 
+main section .botones .boton{
+   background-color: aliceblue;
+   padding: 0.5rem;
+   text-align: center;
+   width: 50%;
+   margin: 0.5rem auto;
+   border-radius: 50px;
+}
 
 .tupla-imagen-texto {
     background-color: rgb(64, 126, 58);
