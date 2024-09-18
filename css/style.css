@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+    background-color: rgb(221, 145, 57);
+    box-sizing: border-box;
+    height: 80px;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+header div {
+    padding: 10px;
+    display: block;
+}
+
+header div h1 {
+    color: rgb(15, 87, 24);
+    text-align: center;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(15, 87, 24);
+    text-decoration: none;
+    display: inline;
+    font-size: large;
+}
+
+/* MAIN */
+
+main {
+
+    background-color: rgb(10, 124, 67, .5);
+    background-image: url("../assets/img/enredaderas-background.jpg");
+    height: 100vh;
+}
+
+section {
+    padding: 40px;
+}
+
+section div button {
+    margin: 20px;
+    height: 25px;
+}
+
+.titulo-seccion {
+    color: bisque;
+    margin: 30px;
+    text-align: center;
+
+}
+
+.botones {
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns:1, 1fr;
+    grid-template-rows:repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.boton1{
+    display: flex;
+    gap: 1rem;
+}
+
+
+.tupla-imagen-texto {
+    background-color: rgb(64, 126, 58);
+    width: 100%;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto-galeria {
+    margin: 20px;
+    text-align: center;
+}
+
+.imagen-galeria {
+    width: 500px;
+}
+
+.colaboradores {
+    background-color: rgb(98, 163, 141);
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-colaborador {
+    background-color: rgb(79, 151, 127);
+    padding: 30px;
+    margin: 20px;
+}
+
+.card-colaborador img {
+    width: 220px;
+}
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.nosotros div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nosotros div h4 {
+    margin: 0 20%;
+}
+
+.nosotros div img {
+    width: 50%;
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 50%;
+
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(221, 145, 57);
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer div {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div div {
+    height: 95px;
+    flex-direction: column;
+}
+
+footer div div div {
+    flex-direction: row;
+}
+
+footer div div div img {
+    margin-left: 10px;
+    width: 30px;
+}
+
+.firma {
+    display: block;
+}
